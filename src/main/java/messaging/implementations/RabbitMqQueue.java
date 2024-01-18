@@ -16,7 +16,7 @@ import messaging.MessageQueue;
 public class RabbitMqQueue implements MessageQueue {
 
 	private static final String DEFAULT_HOSTNAME = "localhost";
-	private static final String EXCHANGE_NAME = "eventsExchange";
+	private static final String EXCHANGE_NAME = "messagesExchange";
 	private static final String QUEUE_TYPE = "topic";
 
 	private Channel channel;
